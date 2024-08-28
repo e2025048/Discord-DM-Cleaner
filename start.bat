@@ -44,7 +44,7 @@ if errorlevel 1 (
 )
 
 cls
-"!python!" viewer.py
+"!python!" clear.py
 
 if errorlevel 1 (
     cls
