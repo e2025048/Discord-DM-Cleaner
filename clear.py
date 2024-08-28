@@ -15,6 +15,7 @@ try:
 except Exception as e:
     print(e)
 
+
 #---LOAD CONFIGURATION---
 with open('config.json') as config_file:
     config = json.load(config_file)
