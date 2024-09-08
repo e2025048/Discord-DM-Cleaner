@@ -14,7 +14,6 @@ for /f "tokens=*" %%i in ('where python 2^>nul') do (
     goto foundPython
 )
 
-:: If Python is not found
 :missingPython
 cls
 echo Python is not installed or not found in your system PATH.
